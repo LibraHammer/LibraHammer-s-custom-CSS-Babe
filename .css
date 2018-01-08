@@ -8,32 +8,29 @@
 
 /* IMPORT CSS FROM GITHUB */
 
-@import url(https://gitcdn.xyz/repo/LibraHammer/LibraHammer-s-custom-CSS-Babe/master/.css);
+@import url(https://gitcdn.xyz/repo/Zerthox/ClearVision/master/css/ClearVision_v5.min.css);
 
 /*
-
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 IMPORTANT: CHANGE BETWEEN DARK AND LIGHT VERSION IN APPEARANCE SETTINGS! 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
-
 */
 
 /*
-
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 ================ IMPORTANT LINKS =================
 
 Github: https://github.com/LibraHammer
-
+Wiki: https://git.io/vXTqM (Where I create the code)
+Latest version: https://git.io/v6Muk (Theme by  Zerthox)
+Changelog: https://git.io/v6r5N (Look this from Zerthox)
 ---------------------------------------------------------------------------------------------------------------------------------------------
-
 */
 
 /*
-
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 ============== CUSTOMIZABLE COLORS ===============
@@ -49,9 +46,8 @@ Github: https://github.com/LibraHammer
     --background-blur: 0px;
 
     --background-brightness: 100%;
-
+	
 }
-
 .container-RYiLUQ,
 
 .wrapper-2ldvyE,
@@ -61,11 +57,8 @@ Github: https://github.com/LibraHammer
 .private-channels .channel:hover a
 
 {
-
     background: transparent !important;    
-
 }
-
 .contentSelectedText-3j5CXt,
 
 .contentHoveredText-2HYGIY, 
@@ -75,23 +68,18 @@ Github: https://github.com/LibraHammer
 .contentSelectedVoice-gTtYM9:active{
 
     background-color: rgba(0,0,0,.3);
-
 }
 
 /*
 
 --------------------------------------------------------------------------------------------------------------------------------------------
-
 */
 
 /*
-
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 ========= CUSTOMIZABLE BACKGROUND IMAGE ==========
-
 */
-
 body::after,
 
 .callout-backdrop,
@@ -115,9 +103,6 @@ body::after,
     background-image: url(https://cdn.boobbot.us/4k/4k1346.jpg) !important; /* IMPORTANT: Link must be HTTP! */
 
 }
-
 /*
-
 --------------------------------------------------------------------------------------------------------------------------------------------
-
 */
