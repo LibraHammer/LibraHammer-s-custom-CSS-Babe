@@ -1,0 +1,123 @@
+//META{"name":"LibraHammer's custom CSS Babe"}*//{}
+
+/* LibraHammer's custom CSS Babe */
+
+/* By LibraHammer */
+
+
+
+/* IMPORT CSS FROM GITHUB */
+
+@import url();
+
+/*
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+IMPORTANT: CHANGE BETWEEN DARK AND LIGHT VERSION IN APPEARANCE SETTINGS! 
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+*/
+
+/*
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+================ IMPORTANT LINKS =================
+
+Github: https://github.com/LibraHammer
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+*/
+
+/*
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+============== CUSTOMIZABLE COLORS ===============
+
+*/
+
+:root {
+
+	--main-color: #7839a1;
+
+	--hover-color: #8c7ad4;
+
+    --background-blur: 0px;
+
+    --background-brightness: 100%;
+
+}
+
+.container-RYiLUQ,
+
+.wrapper-2ldvyE,
+
+.private-channels .channel.selected a,
+
+.private-channels .channel:hover a
+
+{
+
+    background: transparent !important;    
+
+}
+
+.contentSelectedText-3j5CXt,
+
+.contentHoveredText-2HYGIY, 
+
+.contentHoveredVoice-3qGNKh:active, 
+
+.contentSelectedVoice-gTtYM9:active{
+
+    background-color: rgba(0,0,0,.3);
+
+}
+
+/*
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+*/
+
+/*
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+========= CUSTOMIZABLE BACKGROUND IMAGE ==========
+
+*/
+
+body::after,
+
+.callout-backdrop,
+
+.user-popout::before,
+
+#user-profile-modal .header::before,
+
+#pubs-container::before,
+
+.auth-background,
+
+.auth-tiling-bg,
+
+.invite-modal .invite-splash,
+
+.radio-theme.light label,
+
+.radio-theme.dark label{
+
+    background-image: url(https://cdn.boobbot.us/4k/4k1346.jpg) !important; /* IMPORTANT: Link must be HTTP! */
+
+}
+
+/*
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+*/
